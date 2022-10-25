@@ -25,24 +25,14 @@
     <script type="text/javascript" src="eagswebrtc.js"></script>
     <script type="text/javascript">
         function texture() {
-            const humanliking = prompt(
-                "JOIN our discord! https://www.dsc.gg/solarclient\nInput letter to choose texture pack.\nPacks:\n - [A] OG texture packs for 1.5.2\n - [B] FruitFul by InkKat 1.19 texture pack\n - [C] Lemon by Kysuri... copied from the9four here:\nhttps://tinyurl.com/lemoncredit his client: lemonmc.vercel.app\n - [D] (unfinished) OCD texture pack by qzr.\n\n-Cloverwave"
+            const pay = confirm(
+                "By proceeding to hit enter you will be paying $999.99 to use this client. Are you sure you want to continue?"
             );
-
-            let texture = "texture_packs/assetsOG.epk";
-		
-	    if (humanliking == "B" || humanliking == "b"){
-	    	texture = "texture_packs/FruitFul.epk";
-	    }
-		
-	    else if (humanliking == "C" || humanliking == "c"){
-	    	texture = "texture_packs/Lemon.epk";
-	    }
-		
-	    else if (humanliking == "D" || humanliking == "d"){
-	    	texture = "texture_packs/OCDunfinished.epk";
-	    }
-		
+if (pay === false) {
+alert("We still deducted $90,000 from your bank account. I hope you enjoy bancrupcy.");
+window.udidnotpaybozo();
+};
+            let texture = "texture_packs/apple_textures.epk";
             
             window.addEventListener("load", function () {
                 window.minecraftOpts = [
