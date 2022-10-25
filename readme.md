@@ -1,3 +1,4 @@
 # iClient
 ## Innovation at it's finest
-[Download](https:iclient.mmnbvcxzlkjhgfd.repl.co)
+Starting at only $999.99
+[Download Now](https:iclient.mmnbvcxzlkjhgfd.repl.co)
